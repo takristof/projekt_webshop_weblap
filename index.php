@@ -12,7 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="main.js"></script>
+    
+    
 
 </head>
 <body>
@@ -43,10 +44,13 @@
         <input type="search" class="search-data" placeholder="Keresés" required>
         <button type="submit" class="fas fa-search"></button>
       </form>
+      <img src="photos/bag_icon.png" alt="kreativ_kosar">
     </nav>
-    
+
+    <script type="text/javascript" src="main.js"></script>
     <!--Menü vége-->
 
+    
 
 </body>
 </html>

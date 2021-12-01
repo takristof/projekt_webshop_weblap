@@ -2,7 +2,7 @@ body{
     height: 100vh;
 }
 nav{
-    background: #2a303a;
+    background: #9fa3aa;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -44,7 +44,7 @@ nav form{
     display: flex;
     height: 40px;
     padding: 2px;
-    background: #1e232b;
+    background: #a2a7af;
     min-width: 18%!important;
     border-radius: 2px;
     border: 1px solid black 0.2;
@@ -65,7 +65,7 @@ nav form button{
     padding: 0 15px;
     color: white;
     font-size: 17px;
-    background: greenyellow;
+    background: rgb(54, 31, 182);
     border: none;
     border-radius: 2px;
     border-top-right-radius: 12px;
