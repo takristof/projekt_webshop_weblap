@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
 
 </head>
 <body>
@@ -24,7 +25,7 @@
       <div class="logo"><img src="photos/black_logo.png" alt=""></div>
 
       <div class="nav-items">
-        <li><a href="#">Főoldal</a></li>
+        <li><a href="index.php">Főoldal</a></li>
         <li><a href="#">Termékek</a></li>
         <li><a href="#">Rólunk</a></li>
         <li><a href="#">Kapcsolat</a></li>
@@ -45,31 +46,7 @@
     </nav>
     
     <!--Menü vége-->
-    <script>
-      
-      const menuBtn = document.querySelector(".menu-icon span");
-      const searchBtn = document.querySelector(".search-icon");
-      const cancelBtn = document.querySelector(".cancel-icon");
-      const items = document.querySelector(".nav-items");
-      const form = document.querySelector("form");
-      menuBtn.onclick = ()=>{
-          items.classList.add("active");
-          menuBtn.classList.add("hide");
-          searchBtn.classList.add("hide");
-          cancelBtn.classList.add("show");
-      }
-      cancelBtn.onclick = ()=>{
-          items.classList.remove("active");
-          menuBtn.classList.remove("hide");
-          searchBtn.classList.remove("hide");
-          cancelBtn.classList.remove("show");
-          form.classList.remove("active");
-      }
-      searchBtn.onclick = ()=>{
-          form.classList.add("active")
-          searchBtn.classList.add("hide");
-          cancelBtn.classList.add("show");
-      }
-    </script>
+
+
 </body>
 </html>
