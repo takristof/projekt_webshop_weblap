@@ -1,4 +1,4 @@
-body {
+html,body {
   height: 100vh;
 }
 nav {
@@ -9,6 +9,7 @@ nav {
   justify-content: space-between;
   height: 70px;
   padding: 0 100px;
+  font-family: "Alegreya Sans SC";
 }
 nav .logo {
   color: #fff;
@@ -33,7 +34,7 @@ nav .nav-items li {
 }
 nav .nav-items li a {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.3rem;
   font-weight: 500;
   text-decoration: none;
 }
