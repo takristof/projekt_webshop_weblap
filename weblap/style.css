@@ -270,7 +270,7 @@ ul{
     padding: 70px 0;
     clear: both;
     bottom: 0;
-    position:fixed;
+    position: absolute;
     width: 100%;
 
 }
@@ -308,10 +308,15 @@ ul{
 	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
+
+}
+.footer-col ul li{
+  position: static;
 }
 .footer-col ul li a:hover{
 	color: #ffffff;
-	padding-left: 8px;
+  left: 30px;
+
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -324,6 +329,7 @@ ul{
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
+  
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
@@ -331,14 +337,23 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 960px){
   .footer-col{
+    position: relative;
     width: 50%;
-    margin-bottom: 30px;
+
 }
 }
-@media(max-width: 574px){
+@media(max-width: 860px){
   .footer-col{
-    width: 100%;
+    position: relative;
+    width: 50%;
+
+}
+}
+@media(max-width: 350px){
+  .footer-col{
+    position: relative;
+    width: 50%;
 }
 }
