@@ -61,18 +61,20 @@
   <script type="text/javascript" src="main.js"></script>
   <!--Menü vége-->
 
-  <div class="container">
+  <div class="container" id="bemutatkozo">
     <div class="text-center">
       <h2>Bemutatkozás</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.</p>
-      <div class="row">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-camera fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas corrupti autem quae quaerat ut, eos mollitia temporibus facilis, ratione veniam saepe, iure magni optio officia iusto! Iure, deserunt est!
+      </p>
     </div>
     <div class="container">
       <img src="photos/logo.png" alt="logo">
+    </div>
+    <div class="text-center">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas corrupti autem quae quaerat ut, eos mollitia temporibus facilis, ratione veniam saepe, iure magni optio officia iusto! Iure, deserunt est!
+      </p>
     </div>
   </div>
 
