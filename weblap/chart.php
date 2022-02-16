@@ -15,7 +15,7 @@
   <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
   
   <link rel="icon" href="photos/favicon.ico" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
   
 
 
@@ -63,19 +63,19 @@
   
 
 
-  <!--Footer eleje-->
-  <footer class="footer">
+   <!--Footer eleje-->
+   <footer class="footer py-4">
   	 <div class="container">
   	 	<div class="row">
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Információk</h4>
   	 			<ul>
-  	 				<li><a href="#">Kapcsolat</a></li>
+  	 				<li><a href="kapcsolat.php">Kapcsolat</a></li>
   	 				<li><a href="#">Adatvédelem</a></li>
   	 				<li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Segítség</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
@@ -83,7 +83,7 @@
   	 				<li><a href="#">Garancia</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>termékek</h4>
   	 			<ul>
   	 				<li><a href="#">Kész termékek</a></li>
@@ -91,10 +91,10 @@
   	 				<li><a href="#">Dobozok</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>kövess minket</h4>
   	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://www.facebook.com/kreativotletcentrum" target="_blank"><i class="fab fa-facebook-f"></i></a>
   	 				<a href="#"><i class="fab fa-twitter"></i></a>
   	 				<a href="#"><i class="fab fa-instagram"></i></a>
   	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
