@@ -185,7 +185,7 @@ nav .search-icon {
     transition: top 0.3s ease, opacity 0.1s ease;
   }
   nav form.active {
-    top: 95px;
+    top: 6rem;
     opacity: 1;
     pointer-events: auto;
   }
@@ -243,7 +243,7 @@ nav .search-icon {
     font-size: 1rem;
   }
   #kereso_mezo {
-    width: 336px;
+    width: 325px;
   }
 }
 div.bag-icon{
