@@ -7,16 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Kreatív Ötletcentrum | Főoldal</title>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
-  
+
+
   <link rel="icon" href="photos/favicon.ico" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="style/style.css">
-  
+  <link rel="stylesheet" href="style/fooldal_style.css">
 
 
 </head>
@@ -35,7 +36,7 @@
       <li><a href="#">Rólunk</a></li>
       <li><a href="kapcsolat.php">Kapcsolat</a></li>
     </div>
-    
+
 
     <div class="search-icon">
       <span class="fas fa-search"></span>
@@ -60,51 +61,64 @@
   <script type="text/javascript" src="main.js"></script>
   <!--Menü vége-->
 
-  <div class="row">
-    
+  <div class="container">
+    <div class="text-center">
+      <h2>Bemutatkozás</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.</p>
+      <div class="row">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-camera fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <img src="photos/logo.png" alt="logo">
+    </div>
   </div>
-  
+
+
+
   <!--Footer eleje-->
   <footer class="footer py-4">
-  	 <div class="container">
-  	 	<div class="row">
-  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
-  	 			<h4>Információk</h4>
-  	 			<ul>
-  	 				<li><a href="kapcsolat.php">Kapcsolat</a></li>
-  	 				<li><a href="#">Adatvédelem</a></li>
-  	 				<li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
-  	 			<h4>Segítség</h4>
-  	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">Szállítás</a></li>
-  	 				<li><a href="#">Garancia</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
-  	 			<h4>termékek</h4>
-  	 			<ul>
-  	 				<li><a href="#">Kész termékek</a></li>
-  	 				<li><a href="#">Alapanyagok</a></li>
-  	 				<li><a href="#">Dobozok</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
-  	 			<h4>kövess minket</h4>
-  	 			<div class="social-links">
-  	 				<a href="https://www.facebook.com/kreativotletcentrum" target="_blank"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
-  	 			</div>
-  	 		</div>
-  	 	</div>
-  	 </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 my-2 my-lg-0" id="footer-col">
+          <h4>Információk</h4>
+          <ul>
+            <li><a href="kapcsolat.php">Kapcsolat</a></li>
+            <li><a href="#">Adatvédelem</a></li>
+            <li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 my-2 my-lg-0" id="footer-col">
+          <h4>Segítség</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Szállítás</a></li>
+            <li><a href="#">Garancia</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 my-2 my-lg-0" id="footer-col">
+          <h4>termékek</h4>
+          <ul>
+            <li><a href="#">Kész termékek</a></li>
+            <li><a href="#">Alapanyagok</a></li>
+            <li><a href="#">Dobozok</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 my-2 my-lg-0" id="footer-col">
+          <h4>kövess minket</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/kreativotletcentrum" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
- <!--Footer vége-->
+  <!--Footer vége-->
 </body>
 
 </html>
