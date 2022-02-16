@@ -32,8 +32,8 @@
     <div class="nav-items">
       <li><a href="index.php">Főoldal</a></li>
       <li><a href="termekek.php">Termékek</a></li>
-      <li><a href="#">Rólunk</a></li>
-      <li><a href="#">Kapcsolat</a></li>
+      <li><a href="rolunk.php">Rólunk</a></li>
+      <li><a href="kapcsolat.php">Kapcsolat</a></li>
     </div>
     
 
