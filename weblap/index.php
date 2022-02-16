@@ -65,18 +65,18 @@
   </div>
   
   <!--Footer eleje-->
-  <footer class="footer">
+  <footer class="footer py-4">
   	 <div class="container">
   	 	<div class="row">
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Információk</h4>
   	 			<ul>
-  	 				<li><a href="#">Kapcsolat</a></li>
+  	 				<li><a href="kapcsolat.php">Kapcsolat</a></li>
   	 				<li><a href="#">Adatvédelem</a></li>
   	 				<li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Segítség</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
@@ -84,7 +84,7 @@
   	 				<li><a href="#">Garancia</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>termékek</h4>
   	 			<ul>
   	 				<li><a href="#">Kész termékek</a></li>
@@ -92,7 +92,7 @@
   	 				<li><a href="#">Dobozok</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>kövess minket</h4>
   	 			<div class="social-links">
   	 				<a href="https://www.facebook.com/kreativotletcentrum" target="_blank"><i class="fab fa-facebook-f"></i></a>

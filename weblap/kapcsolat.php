@@ -13,7 +13,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
-  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   <link rel="icon" href="photos/favicon.ico" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/kapcsolat_style.css">
@@ -65,8 +66,7 @@
   <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Kapcsolat</h2>
-                    <h3 class="section-subheading text-muted">Üzenjen nekünk.</h3>
+                    <h3 class="text-uppercase">Kérdésed van? Írj nekünk!</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -100,10 +100,10 @@
         </section>
   
   <!--Footer eleje-->
-  <footer class="footer">
+  <footer class="footer py-4">
   	 <div class="container">
   	 	<div class="row">
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Információk</h4>
   	 			<ul>
   	 				<li><a href="kapcsolat.php">Kapcsolat</a></li>
@@ -111,7 +111,7 @@
   	 				<li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>Segítség</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
@@ -119,7 +119,7 @@
   	 				<li><a href="#">Garancia</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>termékek</h4>
   	 			<ul>
   	 				<li><a href="#">Kész termékek</a></li>
@@ -127,7 +127,7 @@
   	 				<li><a href="#">Dobozok</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div class="col-lg-3 my-2 my-lg-0" id="footer-col">
   	 			<h4>kövess minket</h4>
   	 			<div class="social-links">
   	 				<a href="https://www.facebook.com/kreativotletcentrum" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -141,5 +141,6 @@
   </footer>
  <!--Footer vége-->
 </body>
+
 
 </html>
