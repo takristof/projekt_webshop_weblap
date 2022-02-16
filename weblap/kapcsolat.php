@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <title>Kreatív Ötletcentrum | Főoldal</title>
+  <title>Kreatív Ötletcentrum | Kapcsolat</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -16,6 +16,7 @@
   
   <link rel="icon" href="photos/favicon.ico" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/kapcsolat_style.css">
   
 
 
@@ -32,7 +33,7 @@
     <div class="nav-items">
       <li><a href="index.php">Főoldal</a></li>
       <li><a href="termekek.php">Termékek</a></li>
-      <li><a href="#">Rólunk</a></li>
+      <li><a href="rolunk.php">Rólunk</a></li>
       <li><a href="kapcsolat.php">Kapcsolat</a></li>
     </div>
     
@@ -60,9 +61,43 @@
   <script type="text/javascript" src="main.js"></script>
   <!--Menü vége-->
 
-  <div class="row">
-    
-  </div>
+  <!-- Contact-->
+  <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Kapcsolat</h2>
+                    <h3 class="section-subheading text-muted">Üzenjen nekünk.</h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Név *" required="required" data-validation-required-message="Kérem adja meg a nevét." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="E-mail *" required="required" data-validation-required-message="Kérem adja meg az e-mail címét." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefon *" required="required" data-validation-required-message="Kérem adja meg a telefonszámát." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Üzenet *" required="required" data-validation-required-message="Kérem írja be üzenetét."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Küldés</button>
+                    </div>
+                </form>
+            </div>
+        </section>
   
   <!--Footer eleje-->
   <footer class="footer">
@@ -71,7 +106,7 @@
   	 		<div class="footer-col">
   	 			<h4>Információk</h4>
   	 			<ul>
-  	 				<li><a href="#">Kapcsolat</a></li>
+  	 				<li><a href="kapcsolat.php">Kapcsolat</a></li>
   	 				<li><a href="#">Adatvédelem</a></li>
   	 				<li><a href="#">Általános Szerződési Feltételek (ÁSZF)</a></li>
   	 			</ul>
