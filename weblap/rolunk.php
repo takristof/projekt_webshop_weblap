@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <title>Kreatív Ötletcentrum | Főoldal</title>
+  <title>Kreatív Ötletcentrum | Rólunk</title>
   <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -61,22 +61,7 @@
   <script type="text/javascript" src="main.js"></script>
   <!--Menü vége-->
 
-  <div class="container" id="bemutatkozo">
-    <div class="text-center">
-      <h2>Bemutatkozás</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas corrupti autem quae quaerat ut, eos mollitia temporibus facilis, ratione veniam saepe, iure magni optio officia iusto! Iure, deserunt est!
-      </p>
-    </div>
-    <div class="container">
-      <img src="photos/logo.png" alt="logo">
-    </div>
-    <div class="text-center">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe earum quisquam tempore mollitia deserunt perferendis iure quaerat maxime autem quos ipsam harum amet, ex incidunt corporis eaque et pariatur.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas corrupti autem quae quaerat ut, eos mollitia temporibus facilis, ratione veniam saepe, iure magni optio officia iusto! Iure, deserunt est!
-      </p>
-    </div>
-  </div>
+
 
 
 
