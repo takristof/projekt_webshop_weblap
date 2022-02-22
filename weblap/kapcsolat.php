@@ -67,7 +67,7 @@
   <section class="page-section" id="contact">
     <div class="container">
       <div class="text-center">
-        <h3 class="text-uppercase">Kérdésed van? Írj nekünk!</h3>
+        <h3 class="text-uppercase"><b>Kérdésed van? Írj nekünk!</b></h3>
       </div>
       <form id="contactForm" name="sentMessage" novalidate="novalidate">
         <div class="row align-items-stretch mb-5">
@@ -107,7 +107,7 @@
         <h2><b>Elérhetőségeink</b></h2>
         <p><b>Email:</b> kocentrum@info.hu</p>
         <p><b>Telefonszám:</b> +36301234567</p>
-        <p><b>Cím:</b> 1234 Gyömrő, Gyömrői Út 123</p>
+        <p><b>Cím:</b> 2230 Gyömrő, Gyömrői Út 123</p>
       </div>
       <div class="col-lg-6">
         <iframe id="terkep" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9081.089942961125!2d19.397610731155908!3d47.41537022726169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741be50def15e91%3A0x400c4290c1e29d0!2zR3nDtm1yxZEsIDIyMzA!5e0!3m2!1shu!2shu!4v1645550595304!5m2!1shu!2shu" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
