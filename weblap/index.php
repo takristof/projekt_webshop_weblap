@@ -37,6 +37,7 @@
       <li><a href="kapcsolat.php">Kapcsolat</a></li>
     </div>
 
+    <p>sdasda</p>
 
     <div class="search-icon">
       <span class="fas fa-search"></span>
