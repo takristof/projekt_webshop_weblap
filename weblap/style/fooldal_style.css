@@ -19,3 +19,14 @@
     font-size: 2rem;
     font-weight: bold;
 }
+#elerhetoseg{
+    margin-top: 5%;
+    width: 100%;
+}
+#elerhetoseg p{
+    font-size: 1.3rem;
+}
+#terkep{
+    display: block;
+
+}
